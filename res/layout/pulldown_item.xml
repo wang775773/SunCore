@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/mm_listitem" >
+            
+    <ImageView
+    	android:id="@+id/order_item_pic"
+        android:layout_width="55dp"
+		android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="10dp"
+        android:src="@drawable/order_item_pic" 
+        android:contentDescription="@string/pic_desc" 
+        />
+
+    <TextView
+        android:id="@+id/order_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/order_item_pic"
+        android:layout_centerVertical="true"
+        android:padding="10dp"
+        android:text="@string/order_item_name"
+        android:singleLine="true"
+        android:textSize="20sp"
+        android:textColor="#000" 
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        	     	
+        android:scaleType="matrix"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/mm_submenu"
+        android:contentDescription="@string/pic_desc"
+        android:padding="10dp" 
+        />
+
+            
+</RelativeLayout>

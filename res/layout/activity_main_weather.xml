@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg0_fine_day"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/weather_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/weather_more"
+        android:gravity="right"
+        android:textColor="#fff"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/temperatureNow"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:drawableRight="@drawable/w_icon2"
+        android:gravity="left"
+        android:text="@string/weather_temp"
+        android:textSize="50sp" />
+
+    <LinearLayout
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:background="#30ffffff"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/publishTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:textColorHighlight="#ffffffff"
+            android:gravity="left"
+            android:text="@string/weather_temp"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/radiationNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/radiation_now" 
+            android:textColorHighlight="#ffffffff"/>
+        
+        <TextView
+            android:id="@+id/humidityNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/humidity_now" 
+            android:textColorHighlight="#ffffffff"/>
+          <TextView
+            android:id="@+id/airdirectionNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/airdirection_now"
+            android:textColorHighlight="#ffffffff" />
+          <TextView
+            android:id="@+id/windspeedNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/windspeed_now" 
+            android:textColorHighlight="#ffffffff"/>
+          <TextView
+            android:id="@+id/airpressureNow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/airpressure_now"
+            android:textColorHighlight="#ffffffff" />
+        
+        
+    </LinearLayout>
+
+</LinearLayout>

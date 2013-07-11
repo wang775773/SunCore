@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="chart_main_background">#FFFFFFFF</color><!-- 统计图背景 -->
+    <color name="chart_background">#153399ff</color>
+    <color name="login_background">#FF3399ff</color>
+    <color name="weatherBtn_bg">#FF3399ff</color>
+    <color name="chartLine">#FFD50785</color>
+    <color name="chartAxesColor">#953399ff</color>
+    <color name="login_button">#FFD50785</color><!-- 按钮的颜色 -->
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/chart_main_background"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:background="@color/weatherBtn_bg">
+        <TextView
+        	android:layout_width="wrap_content" 
+        	android:layout_height="wrap_content" 
+        	android:text="未完成工单"
+        	android:layout_centerInParent="true"
+        	android:textSize="20sp"	
+        	android:id="@+id/main_order_type"
+			android:textColor="#ffffff" />
+    </RelativeLayout>
+
+	<bupt.sse.monitoringsystem.PullDownView
+    	android:id="@+id/pull_down_view"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:background="@android:color/white"
+    	android:cacheColorHint="#00000000"
+    	/>
+
+</LinearLayout>

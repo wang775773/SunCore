@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/power_list_item"
+	android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:gravity="center_vertical"
+    android:background="@drawable/mm_listitem">
+            
+    <ImageView
+    	android:id="@+id/power_list_head"
+        android:layout_width="55dp"
+		android:layout_height="55dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:paddingLeft="5dp"
+        android:src="@drawable/ic_launcher"
+        android:contentDescription="@string/pic_desc" />
+
+        <TextView
+            android:id="@+id/power_list_name"
+        	android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/power_list_head"
+            android:paddingTop="15dp"
+            android:paddingLeft="7dp"
+            android:textSize="20sp"
+            android:text="@string/power_list_name"
+            android:textColor="#000" />
+        
+        <LinearLayout 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="vertical"
+            >
+            
+            <TextView
+                android:id="@+id/power_list_capacity"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:paddingRight="7dp"
+            	android:paddingTop="7dp"
+            	android:text="@string/power_list_content"
+            	android:textColor="#666" 
+            	/>
+            
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingRight="4dp"
+                android:paddingTop="7dp"
+                android:src="@drawable/power_list_star"
+                android:contentDescription="@string/pic_desc"
+                />
+            
+        </LinearLayout>
+            
+</RelativeLayout>
